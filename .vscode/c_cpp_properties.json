@@ -1,0 +1,18 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Win32", // Adjust as necessary for your platform
+            "includePath": [
+                "${workspaceFolder}/**", // Include all folders in the workspace
+                "${workspaceFolder}/build/GLFW/include", // Path to GLFW headers if using FetchContent
+                "C:/path/to/glfw/include" // Path if GLFW is installed system-wide
+            ],
+            "defines": [],
+            "compilerPath": "C:/path/to/your/compiler", // Path to your compiler (gcc, clang, etc.)
+            "cStandard": "c11", // Specify C standard if needed
+            "cppStandard": "c++17", // Specify C++ standard if needed
+            "intelliSenseMode": "gcc-x64" // Adjust for your compiler
+        }
+    ]
+}
